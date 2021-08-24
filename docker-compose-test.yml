@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+
+
+  wordpress:
+    build:
+      context: ./
+    restart: unless-stopped
+    depends_on:
+      - wordpress_db
+    environment:
+      WORDPRESS_DB_PASSWORD: example
+      WORDPRESS_DB_HOST: wordpress_db
+    ports:
+      - "81:80"
+
+
+  wordpress_db:
+    image: mariadb
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: wordpress
