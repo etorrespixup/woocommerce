@@ -9,7 +9,7 @@ Author URI:  https://www.getbillage.com/
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
-
+//v1.4
 ini_set('precision', 15);
 
 $plugins_url = plugins_url();
