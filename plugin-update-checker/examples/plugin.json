@@ -1,0 +1,21 @@
+{
+	"name": "Billage",
+	"version": "1.4",
+	"download_url": "https://www.getbillage.com/descargas/woocommerce/billage.zip",
+
+	"homepage": "https://www.getbillage.com/es/",
+	"requires": "4.5",
+	"tested": "4.8",
+	"last_updated": "2017-01-01 16:17:00",
+	"upgrade_notice": "Here's why you should upgrade...",
+
+	"author": "Billage",
+	"author_homepage": "https://www.getbillage.com/es/",
+
+	"sections": {
+		"description": "Sincroniza tus facturas en Billage automáticamente.",
+		"installation": "(Recommended) Installation instructions.",
+		"changelog": "(Recommended) Changelog. <p>This section will be displayed by default when the user clicks 'View version x.y.z details'.</p>",
+		"custom_section": "This is a custom section labeled 'Custom Section'."
+	}
+}
