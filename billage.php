@@ -16,7 +16,7 @@ $myUpdateChecker=Puc_v4_Factory::buildUpdateChecker(
   'billage'
 );
 $myUpdateChecker->setBranch('main');
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setAuthentication('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');
 ini_set('precision', 15);
 
 $plugins_url = plugins_url();
